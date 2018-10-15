@@ -112,7 +112,7 @@ public class ConsolidatedController extends BaseController {
 		
 		DeviceConsolidatedWrapper consolidatedData = new DeviceConsolidatedWrapper();
 		consolidatedData.setUser(user);
-		consolidatedData.setOperativeSystemListConsolidated(osConsolidatedList);
+		consolidatedData.setDeviceListConsolidated(osConsolidatedList);
 		consolidatedData.setServicesList(serviceCustomerList);
 		consolidatedData.setExplanationCost(costWrapperList);
 		consolidatedData.setTotalCost(totalCost);

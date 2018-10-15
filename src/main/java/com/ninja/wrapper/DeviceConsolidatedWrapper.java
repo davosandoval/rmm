@@ -6,7 +6,7 @@ import com.ninja.rmm.model.ServiceCustomer;
 
 public class DeviceConsolidatedWrapper {
 	private String user;
-	private List<OperativeSystemConsolidatedWrapper> operativeSystemListConsolidated;
+	private List<OperativeSystemConsolidatedWrapper> deviceListConsolidated;
 	private List<ServiceCustomer> servicesList;
 	private List<CostWrapper> explanationCost;
 	private Integer totalCost;
@@ -19,13 +19,7 @@ public class DeviceConsolidatedWrapper {
 	public void setUser(String user) {
 		this.user = user;
 	}
-	public List<OperativeSystemConsolidatedWrapper> getOperativeSystemListConsolidated() {
-		return operativeSystemListConsolidated;
-	}
-	public void setOperativeSystemListConsolidated(
-			List<OperativeSystemConsolidatedWrapper> operativeSystemListConsolidated) {
-		this.operativeSystemListConsolidated = operativeSystemListConsolidated;
-	}
+	
 	public List<ServiceCustomer> getServicesList() {
 		return servicesList;
 	}
@@ -43,6 +37,12 @@ public class DeviceConsolidatedWrapper {
 	}
 	public void setTotalCost(Integer totalCost) {
 		this.totalCost = totalCost;
+	}
+	public List<OperativeSystemConsolidatedWrapper> getDeviceListConsolidated() {
+		return deviceListConsolidated;
+	}
+	public void setDeviceListConsolidated(List<OperativeSystemConsolidatedWrapper> deviceListConsolidated) {
+		this.deviceListConsolidated = deviceListConsolidated;
 	}
 	
 	
