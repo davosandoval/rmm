@@ -22,7 +22,7 @@ Then, open it on Eclipse
 
 mvn spring-boot:run
 
-**NOTE:** If the server 8080 is already used, please run the following command:
+- **NOTE:** If the server 8080 is already used, please run the following command:
 
 mvn spring-boot:run -Dspring-boot.run.arguments=--server.port=[PORT_NUMBER]
 
@@ -34,9 +34,9 @@ http://localhost:8080/rmm/consolidated/valentina
 The application should show some data.
 
 # USING THE APPLICATION
-**NOTE 1:** To make the CRUD requests, you could POSTMAN or your preferred API develepment environment.
-**NOTE 2:** There are a customer called "valentina" that has some services and devices. There is another customer called "pepe" that have no services and have no devices.
-**NOTE 3:** If you want to add a new customer, please insert the new one inside the table "customer".
+- **NOTE 1:** To make the CRUD requests, you could POSTMAN or your preferred API develepment environment.
+- **NOTE 2:** There are a customer called "valentina" that has some services and devices. There is another customer called "pepe" that have no services and have no devices.
+- **NOTE 3:** If you want to add a new customer, please insert the new one inside the table "customer".
 
 The services published in this application are:
 
